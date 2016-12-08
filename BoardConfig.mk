@@ -53,6 +53,7 @@ BOARD_KERNEL_PAGESIZE := 2048
 BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 androidboot.hardware=flox user_debug=31 msm_rtb.filter=0x3F ehci-hcd.park=3
 BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x02000000
+LZMA_RAMDISK_TARGETS := recovery
 
 # Kernel source
 TARGET_KERNEL_SOURCE := kernel/qcom/msm8960
