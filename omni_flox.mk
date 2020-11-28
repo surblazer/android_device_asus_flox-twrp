@@ -21,11 +21,11 @@ $(call inherit-product-if-exists, vendor/omni/config/common.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 
 # Inherit from tf device
-$(call inherit-product, device/asus/flo/device.mk)
+$(call inherit-product, device/asus/flox/device.mk)
 
 # Setup device specific product configuration.
-PRODUCT_NAME := omni_flo
-PRODUCT_DEVICE := flo
+PRODUCT_NAME := omni_flox
+PRODUCT_DEVICE := flox
 PRODUCT_BRAND := Android
 PRODUCT_MODEL := Nexus 7
 PRODUCT_MANUFACTURER := ASUS

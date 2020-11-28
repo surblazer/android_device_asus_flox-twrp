@@ -14,5 +14,5 @@
 # limitations under the License.
 #
 
-add_lunch_combo omni_flo-userdebug
-add_lunch_combo omni_flo-eng
+add_lunch_combo omni_flox-userdebug
+add_lunch_combo omni_flox-eng

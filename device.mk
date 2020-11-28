@@ -24,5 +24,5 @@ $(call inherit-product, frameworks/native/build/tablet-7in-xhdpi-2048-dalvik-hea
 
 # Filesystem configuration
 PRODUCT_COPY_FILES += \
-    device/asus/flo/fstab.flo:root/fstab.flo \
-    device/asus/flo/twrp.fstab:recovery/root/etc/twrp.fstab
+    device/asus/flox/fstab.flox:root/fstab.flox \
+    device/asus/flox/twrp.fstab:recovery/root/etc/twrp.fstab
