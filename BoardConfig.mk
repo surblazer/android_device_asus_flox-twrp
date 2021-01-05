@@ -56,7 +56,7 @@ BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x02000000
 LZMA_RAMDISK_TARGETS := recovery
 
 # Kernel source
-TARGET_KERNEL_SOURCE := kernel/qcom/msm8960
+TARGET_KERNEL_SOURCE := kernel/asus/flo
 TARGET_KERNEL_CONFIG := flo_defconfig
 
 # Kernel toolchain
